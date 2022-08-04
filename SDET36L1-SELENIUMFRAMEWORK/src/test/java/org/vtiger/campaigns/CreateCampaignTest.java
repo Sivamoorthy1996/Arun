@@ -13,7 +13,7 @@ public class CreateCampaignTest extends BaseClass {
 	@Test(groups="sanity")
 	public void createCampaignTest()  {
 
-		System.out.println("Create compaign Class "+Thread.currentThread().getId());
+		System.out.println("Create   compaign Class "+Thread.currentThread().getId());
 		//fetch the data from excel file
 		String sheetName = "campaignmodule";
 		String expectedCampaignName = excelutility.getDataFromExcel(2, 1,sheetName )+randomNumber;
